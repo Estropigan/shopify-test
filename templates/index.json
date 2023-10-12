@@ -54,12 +54,13 @@
         "padding_bottom": 36
       }
     },
-    "f91d3e71-4a35-4615-9959-86a0f2190e22": {
+    "5d89e78d-47e0-4440-b23b-01423ae10e41": {
       "type": "shopify-test-section",
       "settings": {
         "imageFirstColTest": "shopify:\/\/shop_images\/RAL_3002_CarmineRed.webp",
         "imgBgSecondCol": "shopify:\/\/shop_images\/cargo-ebike_1681962517.jpg",
-        "headTitle": "<p>Your description<\/p>",
+        "headTitle": "Heading Title",
+        "description": "<p>Your description<\/p>",
         "urltest": "",
         "btnLabel": "BOOK A TEST RIDE"
       }
@@ -67,6 +68,6 @@
   },
   "order": [
     "multicolumn",
-    "f91d3e71-4a35-4615-9959-86a0f2190e22"
+    "5d89e78d-47e0-4440-b23b-01423ae10e41"
   ]
 }
