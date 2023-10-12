@@ -20,7 +20,8 @@
 <div class="shopify-test-grid-wrapper">
   <img src="{{ section.settings.imageFirstColTest | img_url: 'master' }}" />
   <div class="second-col">
-    <h2></h2>
+    <h2>{{ section.settings.headTitle }}</h2>
+    <p>{{ section.settings.description }}</p>
   </div>
 </div>
 
@@ -29,9 +30,17 @@
     "name": "Shopify Test",
     "settings": [
       {
+        "type": "header",
+        "content": "First Column Image"
+      },
+      {
         "type": "image_picker",
         "id": "imageFirstColTest",
         "label": "Image first column"
+      },
+      {
+        "type": "header",
+        "content": "Bacground Second Column Image"
       },
       {
         "type": "image_picker",
