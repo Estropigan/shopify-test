@@ -5,7 +5,9 @@
   }
 
   .shopify-test-grid-wrapper .second-col {
-    background-image: url("{{ section.settings.imgBgSecondCol | img_url: 'master' }}")
+    background-image: url("{{ section.settings.imgBgSecondCol | img_url: 'master' }}");
+    background-size: cover;
+    background-position: center center;
   }
 </style>
 
