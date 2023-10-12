@@ -4,6 +4,11 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  .shopify-test-grid-wrapper img {
+    max-width: 100%;
+    height: auto;
+  }
+
   .shopify-test-grid-wrapper .second-col {
     background-image: url("{{ section.settings.imgBgSecondCol | img_url: 'master' }}");
     background-size: cover;
