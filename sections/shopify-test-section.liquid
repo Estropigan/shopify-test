@@ -28,6 +28,9 @@
   <div class="second-col">
     <h2>{{ section.settings.headTitle }}</h2>
     <p>{{ section.settings.description }}</p>
+    <a href="{{ section.settings.urlTest }}" class="btn-book-test">
+      <h6>{{ section.settings.btnLabel }}</h6>
+    </a>
   </div>
 </div>
 
@@ -58,6 +61,17 @@
         "id": "headTitle",
         "label": "Title",
         "default": "<p>Your description</p>"
+      },
+      {
+        "type": "url",
+        "id": "urltest",
+        "label": "Your URL"
+      },
+      {
+        "type": "text",
+        "id": "btnLabel",
+        "label": "Button label",
+        "default": "BOOK A TEST RIDE"
       }
     ],
     "presets": [
