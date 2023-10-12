@@ -3,16 +3,34 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  .shopify-test-grid-wrapper .second-col {
+    background-image: url("{{ section.settings.imgBgSecondCol | img_url: 'master' }}")
+  }
 </style>
 
 <div class="shopify-test-grid-wrapper">
-  
+  <img src="{{ section.settings.imageFirstColTest | img_url: 'master' }}" />
+  <div class="second-col">
+    
+  </div>
 </div>
 
 {% schema %}
   {
     "name": "Shopify Test",
-    "settings": [],
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "imageFirstColTest",
+        "label": "Image first column"
+      },
+      {
+        "type": "image_picker",
+        "id": "imgBgSecondCol",
+        "label": "Background Image of second column"
+      }
+    ],
     "presets": [
       {
         "name": "Shopify Test"
