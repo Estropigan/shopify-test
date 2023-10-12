@@ -59,7 +59,7 @@
       "settings": {
         "imageFirstColTest": "shopify:\/\/shop_images\/RAL_3002_CarmineRed.webp",
         "imgBgSecondCol": "shopify:\/\/shop_images\/cargo-ebike_1681962517.jpg",
-        "headTitle": "Heading Title",
+        "headTitle": "<p>Active <strong>mobility<\/strong><\/p><p>for a healthier you<\/p>",
         "description": "<p>Your description<\/p>",
         "urltest": "",
         "btnLabel": "BOOK A TEST RIDE"
